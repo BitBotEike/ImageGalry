@@ -1,1 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+}
 
+.galerie {
+  display: none;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999999999999999999999999999;
+}
+
+.galerie img {
+  position: relative;
+  height: 95%;
+  width: auto;
+  top: 2.5%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.galerie .rightArrow {
+  position: absolute;
+  font-size: 6em;
+  font-weight: bold;
+  top: 50%;
+  right: 50px;
+}
+
+.galerie .leftArrow {
+  position: absolute;
+  font-size: 6em;
+  font-weight: bold;
+  top: 50%;
+  left: 50px;
+}
+
+.galerie .closeBTN {
+  position: absolute;
+  font-size: 6em;
+  font-weight: bold;
+  top: 18px;
+  right: 50px;
+}
